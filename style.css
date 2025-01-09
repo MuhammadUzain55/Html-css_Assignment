@@ -24,8 +24,10 @@
 
 .menu ul li {
     list-style: none;
-    margin-left: 50px;
+    margin-left: 30px;
     font-size: large;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 .menu ul li:hover {
@@ -34,13 +36,16 @@
 
 .btn button {
     font-size: large;
-    margin-left: 30px;
+    margin-left: 10px;
     border-radius: 10px;
     padding: 10px;  
+    color: white;
+    background-color: #b9ff66;
+    cursor: pointer;
 }
 
 .btn button:hover {
-    background-color: #b9ff66;
+    background-color: #191a23;
 }
 
 .main {
@@ -51,15 +56,24 @@
 
 .head h1 {
     font-size:60px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .head p {
     padding-top: 50px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .image img {
     height: 400px;
-    margin-left: 150px ;
+    margin-left: 200px ;
+    filter: grayscale(100%);
+    transition: filter 0.5s ease;
+}
+
+.image img:hover {
+    filter: grayscale(0%);
 }
 
 .head button {
@@ -69,6 +83,7 @@
     font-size: large;
     color: #f3f3f3;
     background-color: #b9ff66;
+    cursor: pointer;
 }
 
 .head button:hover {
@@ -80,6 +95,7 @@
     align-items: center;
     justify-content: space-evenly;
     margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 .amazon img {
